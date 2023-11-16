@@ -9,7 +9,7 @@ Flask API Development:
 Setup Flask Application: Initialize a Flask application.
 Load Trained Model: Load the trained machine learning model into your Flask app.
 Create API Endpoint(s):
-Define routes/endpoints to handle incoming requests (e.g., '/predict_home_price or /').
+Define routes/endpoints to handle incoming requests (e.g., '/predict_home_price or /get_location_names').
 Implement logic to receive input parameters (house features) via POST or GET requests.
 Process the received data and pass it to the loaded model for prediction.
 Return the predicted house price as a response to the client.
